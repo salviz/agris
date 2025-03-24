@@ -28,6 +28,8 @@ A terminal-based web browser, controlled through command-line interface (CLI), d
 npm install -g agris
 ```
 
+This will install AGRIS globally on your system, making the `agris` command available from any directory.
+
 ### From Source
 
 ```bash
@@ -41,6 +43,14 @@ npm install
 # Make the command globally available
 npm link
 ```
+
+### Quick npx Usage (No Installation)
+
+```bash
+npx agris get https://example.com
+```
+
+For detailed installation instructions and troubleshooting, see [INSTALLATION.md](INSTALLATION.md).
 
 ## Usage
 

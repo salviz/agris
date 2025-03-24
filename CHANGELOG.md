@@ -5,6 +5,7 @@ All notable changes to the AGRIS browser will be documented in this file.
 ## [1.1.0] - 2025-03-24
 
 ### Added
+- Package now available on npm: `npm install -g agris`
 - Enhanced documentation access with bot protection bypassing
 - Documentation command: `agris docs [provider/topic]`
 - Documentation shortcuts for popular providers (OpenAI, GitHub, Node.js, Python, MDN)
@@ -13,6 +14,7 @@ All notable changes to the AGRIS browser will be documented in this file.
 - Full HTTP method support (PUT, DELETE, PATCH, OPTIONS)
 - Multipart/form-data handling for file uploads
 - Enhanced output formatting for AI LLM use
+- Comprehensive installation documentation in INSTALLATION.md
 
 ### Improved
 - Bot detection avoidance with specialized site handling

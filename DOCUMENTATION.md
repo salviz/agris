@@ -154,10 +154,33 @@ agris version
 - Test JavaScript rendering with dynamic sites where supported
 - Check dialog handling with the included test page
 
-## Installation Notes
-- Regular install: `npm install`
-- Install without JavaScript rendering: `npm install --no-optional`
-- Make command globally available: `npm link`
+## Installation
+AGRIS is now available as an npm package, making installation easier than ever.
+
+### Install from npm (Recommended)
+```bash
+npm install -g agris
+```
+
+### Install without JavaScript Rendering
+```bash
+npm install -g agris --no-optional
+```
+
+### Install from Source
+```bash
+git clone https://github.com/salviz/agris.git
+cd agris
+npm install
+npm link
+```
+
+### Use without Installation
+```bash
+npx agris get https://example.com
+```
+
+For detailed installation instructions, troubleshooting, and platform-specific guidance, see [INSTALLATION.md](INSTALLATION.md).
 
 ## Lessons Learned
 See the [LESSONS_LEARNED.md](LESSONS_LEARNED.md) file for insights gained during development.
