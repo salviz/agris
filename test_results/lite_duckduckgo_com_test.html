@@ -1,0 +1,724 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1;">
+  <meta name="referrer" content="origin">
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>openai o1 pro model at DuckDuckGo</title>
+  <link title="DuckDuckGo (Lite)" type="application/opensearchdescription+xml" rel="search" href="//duckduckgo.com/opensearch_lite_v2.xml">
+  <link href="//duckduckgo.com/favicon.ico" rel="shortcut icon" />
+  <link rel="icon" href="//duckduckgo.com/favicon.ico" type="image/x-icon" />
+  <link id="icon60" rel="apple-touch-icon" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_60x60.png?v=2"/>
+  <link id="icon76" rel="apple-touch-icon" sizes="76x76" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_76x76.png?v=2"/>
+  <link id="icon120" rel="apple-touch-icon" sizes="120x120" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_120x120.png?v=2"/>
+  <link id="icon152" rel="apple-touch-icon" sizes="152x152" href="//duckduckgo.com/assets/icons/meta/DDG-iOS-icon_152x152.png?v=2"/>
+  <link rel="image_src" href="//duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png">
+  <link rel="stylesheet" media="handheld, all" href="//duckduckgo.com/dist/lr.7ea0bec6b92cbc81590a.css" type="text/css"/>
+</head>
+
+<body>
+<p class='extra'>&nbsp;</p>
+<div class="header">DuckDuckGo</div>
+<p class='extra'>&nbsp;</p>
+
+<form action="/lite/" method="post">
+  <input class='query' type="text" size="40" name="q" value="openai o1 pro model" >
+  <input class='submit' type="submit" value="Search" >
+
+
+
+
+
+<div class="filters">
+
+<select class="submit" name="kl">
+
+  <option value="" >All Regions</option>
+
+  <option value="ar-es" >Argentina</option>
+
+  <option value="au-en" >Australia</option>
+
+  <option value="at-de" >Austria</option>
+
+  <option value="be-fr" >Belgium (fr)</option>
+
+  <option value="be-nl" >Belgium (nl)</option>
+
+  <option value="br-pt" >Brazil</option>
+
+  <option value="bg-bg" >Bulgaria</option>
+
+  <option value="ca-en" >Canada (en)</option>
+
+  <option value="ca-fr" >Canada (fr)</option>
+
+  <option value="ct-ca" >Catalonia</option>
+
+  <option value="cl-es" >Chile</option>
+
+  <option value="cn-zh" >China</option>
+
+  <option value="co-es" >Colombia</option>
+
+  <option value="hr-hr" >Croatia</option>
+
+  <option value="cz-cs" >Czech Republic</option>
+
+  <option value="dk-da" >Denmark</option>
+
+  <option value="ee-et" >Estonia</option>
+
+  <option value="fi-fi" >Finland</option>
+
+  <option value="fr-fr" >France</option>
+
+  <option value="de-de" >Germany</option>
+
+  <option value="gr-el" >Greece</option>
+
+  <option value="hk-tzh" >Hong Kong</option>
+
+  <option value="hu-hu" >Hungary</option>
+
+  <option value="is-is" >Iceland</option>
+
+  <option value="in-en" >India (en)</option>
+
+  <option value="id-en" >Indonesia (en)</option>
+
+  <option value="ie-en" >Ireland</option>
+
+  <option value="il-en" >Israel (en)</option>
+
+  <option value="it-it" >Italy</option>
+
+  <option value="jp-jp" >Japan</option>
+
+  <option value="kr-kr" >Korea</option>
+
+  <option value="lv-lv" >Latvia</option>
+
+  <option value="lt-lt" >Lithuania</option>
+
+  <option value="my-en" >Malaysia (en)</option>
+
+  <option value="mx-es" >Mexico</option>
+
+  <option value="nl-nl" >Netherlands</option>
+
+  <option value="nz-en" >New Zealand</option>
+
+  <option value="no-no" >Norway</option>
+
+  <option value="pk-en" >Pakistan (en)</option>
+
+  <option value="pe-es" >Peru</option>
+
+  <option value="ph-en" >Philippines (en)</option>
+
+  <option value="pl-pl" >Poland</option>
+
+  <option value="pt-pt" >Portugal</option>
+
+  <option value="ro-ro" >Romania</option>
+
+  <option value="ru-ru" >Russia</option>
+
+  <option value="xa-ar" >Saudi Arabia</option>
+
+  <option value="sg-en" >Singapore</option>
+
+  <option value="sk-sk" >Slovakia</option>
+
+  <option value="sl-sl" >Slovenia</option>
+
+  <option value="za-en" >South Africa</option>
+
+  <option value="es-ca" >Spain (ca)</option>
+
+  <option value="es-es" >Spain (es)</option>
+
+  <option value="se-sv" >Sweden</option>
+
+  <option value="ch-de" >Switzerland (de)</option>
+
+  <option value="ch-fr" >Switzerland (fr)</option>
+
+  <option value="tw-tzh" >Taiwan</option>
+
+  <option value="th-en" >Thailand (en)</option>
+
+  <option value="tr-tr" >Turkey</option>
+
+  <option value="us-en" >US (English)</option>
+
+  <option value="us-es" >US (Spanish)</option>
+
+  <option value="ua-uk" >Ukraine</option>
+
+  <option value="uk-en" >United Kingdom</option>
+
+  <option value="vn-en" >Vietnam (en)</option>
+
+</select>
+
+<select class="submit" name="df">
+
+  <option value="" selected>Any Time</option>
+
+  <option value="d" >Past Day</option>
+
+  <option value="w" >Past Week</option>
+
+  <option value="m" >Past Month</option>
+
+  <option value="y" >Past Year</option>
+
+</select>
+
+</form>
+
+
+  <p class="extra">&nbsp;</p>
+    <table border="0"><tr>
+    <td>
+      
+    </td>
+    <td>
+      
+        <form action="/lite/" method="post">
+          <!-- <a rel="next" href="/lite/?q=openai+o1+pro+model&amp;v=l&amp;l=us-en&amp;p=&amp;s=10&amp;ex=-1&amp;o=json&amp;dl=en&amp;ct=US&amp;sp=0&amp;vqd=4-139358787903252897113802456592021729016&amp;host_region=usw&amp;dp=SUCksoxQV9O5PZ8Am8OTzvuYJSrKSxuXKN2uuLi68yIQ-NUK56Xh_ezvlEn5nJNeVcv1KNF7NYI4mv8ytQ3Wb-iz42MwCjgZkiCPWDozfPl1QzZBgxBBx35HMLj7iIu-.fcu_2AnL3Ucl_wFmeYmWwA&amp;dc=11&amp;api=%2Fd.js">Next Page &gt;</a> //-->
+          <input type="submit" class='navbutton' value="Next Page &gt;">
+          <input type="hidden" name="q" value="openai o1 pro model">
+          <input type="hidden" name="s" value="10">
+          <input type="hidden" name="nextParams" value="">
+          <input type="hidden" name="v" value="l">
+          <input type="hidden" name="o" value="json">
+          <input type="hidden" name="dc" value="11">
+          <input type="hidden" name="api" value="d.js">
+          <input type="hidden" name="vqd" value="4-139358787903252897113802456592021729016">
+          
+          
+          
+          <input name="kl" value="wt-wt" type="hidden">
+          
+          
+          
+          
+        </form>
+      
+    </td>
+    </tr></table>
+
+
+
+
+<p class='extra'>&nbsp;</p>
+
+<table border="0">
+
+</table>
+
+<table border="0">
+
+<!-- Web results are present -->
+
+
+
+
+
+ <tr>
+
+    <td valign="top">1.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://techcrunch.com/2025/03/19/openais-o1-pro-is-its-most-expensive-model-yet/" class='result-link'>OpenAI&#x27;s o1-pro is the company&#x27;s most expensive AI model yet</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      <b>OpenAI</b> has launched a more powerful version of its <b>o1</b> &quot;reasoning&quot; AI <b>model</b>, <b>o1-pro</b>, in its developer API. It&#x27;s incredibly expensive.
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>techcrunch.com/2025/03/19/openais-o1-pro-is-its-most-expensive-model-yet/</span>
+      
+        &nbsp;&nbsp;&nbsp;<span class='timestamp'>2025-03-19
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">2.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://platform.openai.com/docs/models/o1-pro" class='result-link'>OpenAI Platform</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      Explore resources, tutorials, API docs, and dynamic examples to get the most out of <b>OpenAI&#x27;s</b> developer platform.
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>platform.openai.com/docs/models/o1-pro</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">3.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.helicone.ai/blog/o1-pro-for-developers" class='result-link'>OpenAI o1-Pro API: Everything Developers Need to Know</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      <b>OpenAI&#x27;s</b> most expensive <b>model</b> yet is now available via API. Here&#x27;s everything you need to know about the new <b>o1-Pro&#x27;s</b> performance, from its advanced reasoning capabilities to new API integration requirements, use cases, and whether its premium price is justified for your development needs.
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.helicone.ai/blog/o1-pro-for-developers</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">4.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.simplymac.com/ai/openai-launches-o1-pro-their-most-expensive-ai-model" class='result-link'>OpenAI Launches o1-pro Their Most Capable &amp; Expensive AI Model</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      The <b>o1-pro</b> costs $150 for input and $600 for output per million tokens, making it <b>OpenAI&#x27;s</b> priciest <b>model</b>. This advanced <b>model</b> offers improved reasoning capabilities specifically designed for professional and enterprise users. Despite the high price, <b>o1-pro</b> represents the cutting edge of AI technology currently available through commercial APIs.
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.simplymac.com/ai/openai-launches-o1-pro-their-most-expensive-ai-model</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">5.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://community.openai.com/t/o1-pro-in-the-api-o1-pro-is-in-the-api/1147829" class='result-link'>o1 Pro in the API? o1 Pro is in the API! - Community - OpenAI ...</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      <b>OpenAI</b> released the <b>o1</b> <b>Pro</b> <b>model</b> via the API. It&#x27;s already available in the Playground with an extra parameter for adjusting reasoning effort. Supports text, image inputs, function calls, and structured outputs. https:/&amp;hellip;
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>community.openai.com/t/o1-pro-in-the-api-o1-pro-is-in-the-api/1147829</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">6.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://siliconangle.com/2025/03/19/openais-new-reasoning-model-o1-pro-powerful-but-pricey/" class='result-link'>OpenAI&#x27;s new reasoning model o1-pro is powerful but pricey</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      <b>OpenAI</b> is upping the stakes for artificial intelligence reasoning applications with the debut of a more powerful version of its popular <b>o1</b> <b>model</b>. The company has just launched <b>o1-pro</b>, making it ...
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>siliconangle.com/2025/03/19/openais-new-reasoning-model-o1-pro-powerful-but-pricey/</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">7.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.datacamp.com/blog/o1-pro-mode" class='result-link'>What Is OpenAI&#x27;s O1 Pro Mode? Features, ChatGPT Pro &amp; More</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      Learn about <b>OpenAI&#x27;s</b> new ChatGPT <b>Pro</b> subscription plan and its most advanced <b>model</b>, <b>o1</b> <b>pro</b> mode, featuring enhanced accuracy, reliability, and complex reasoning abilities.
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.datacamp.com/blog/o1-pro-mode</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">8.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.datacamp.com/blog/open-ai-o1" class='result-link'>OpenAI o1 Guide: How It Works, Use Cases, API &amp; More</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      In addition to the standard <b>o1</b> <b>model</b>, <b>OpenAI</b> has also introduced <b>o1</b> <b>pro</b> mode. This <b>model</b> is designed for users who require even more advanced reasoning capabilities and are willing to sacrifice some speed for increased accuracy and the ability to handle highly complex tasks.
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.datacamp.com/blog/open-ai-o1</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">9.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://github.blog/news-insights/openais-o1-model-available-in-copilot-chat-and-github-models/" class='result-link'>OpenAI&#x27;s latest o1 model now available in GitHub Copilot and GitHub ...</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      <b>OpenAI&#x27;s</b> <b>o1</b> <b>model</b> is now available in GitHub Copilot and GitHub <b>Models</b>, bringing advanced coding capabilities to your workflows.
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>github.blog/news-insights/openais-o1-model-available-in-copilot-chat-and-github-models/</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">10.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://arstechnica.com/ai/2024/12/openais-new-200-mo-chatgpt-subscription-will-buy-you-more-compute-time/" class='result-link'>OpenAI announces full &quot;o1&quot; reasoning model, $200 ChatGPT Pro tier</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      <b>OpenAI&#x27;s</b> full &quot;<b>o1</b>&quot; AI <b>model</b> is &quot;smaller and faster,&quot; and ChatGPT <b>Pro</b> users get an even beefier version.
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>arstechnica.com/ai/2024/12/openais-new-200-mo-chatgpt-subscription-will-buy-you-more-compute-time/</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+  
+    <tr>
+    <td colspan=2>
+      
+      
+        <form class="next_form" action="/lite/" method="post">
+          <!-- <a rel="next" href="/lite/?q=openai+o1+pro+model&amp;v=l&amp;l=us-en&amp;p=&amp;s=10&amp;ex=-1&amp;o=json&amp;dl=en&amp;ct=US&amp;sp=0&amp;vqd=4-139358787903252897113802456592021729016&amp;host_region=usw&amp;dp=SUCksoxQV9O5PZ8Am8OTzvuYJSrKSxuXKN2uuLi68yIQ-NUK56Xh_ezvlEn5nJNeVcv1KNF7NYI4mv8ytQ3Wb-iz42MwCjgZkiCPWDozfPl1QzZBgxBBx35HMLj7iIu-.fcu_2AnL3Ucl_wFmeYmWwA&amp;dc=11&amp;api=%2Fd.js">Next Page &gt;</a> //-->
+          <input type="submit" class='navbutton' value="Next Page &gt;">
+          <input type="hidden" name="q" value="openai o1 pro model">
+          <input type="hidden" name="s" value="10">
+          <input type="hidden" name="nextParams" value="">
+          <input type="hidden" name="v" value="l">
+          <input type="hidden" name="o" value="json">
+          <input type="hidden" name="dc" value="11">
+          <input type="hidden" name="api" value="d.js">
+          <input type="hidden" name="vqd" value="4-139358787903252897113802456592021729016">
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          
+          
+          
+          <input name="kl" value="wt-wt" type="hidden">
+          
+          
+          
+          
+        </form>
+      
+      
+    </td>
+  </tr>
+
+</table>
+
+<p class='extra'>&nbsp;</p>
+
+<form action="/lite/" method="post">
+  <input class='query' type="text" size="40" name="q" value="openai o1 pro model" >
+  <input class='submit' type="submit" value="Search" >
+
+
+
+
+
+  <input name="kl" value="wt-wt" type="hidden">
+
+</form>
+
+<p class='extra'>&nbsp;</p>
+
+<!--
+<a href="#top">Top</a>
+//-->
+
+
+  <img src="//duckduckgo.com/t/sl_l"/>
+
+<div id='end-spacer'>&nbsp;</div>
+
+</body>
+</html>
