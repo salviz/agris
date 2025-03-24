@@ -4,7 +4,7 @@
   "description": "A terminal-based web browser optimized for AI assistants and CLI usage",
   "main": "src/index.js",
   "bin": {
-    "agris": "./bin/agris.js"
+    "agris": "bin/agris.js"
   },
   "scripts": {
     "test": "node test/run-all-tests.js",
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/salviz/agris.git"
+    "url": "git+https://github.com/salviz/agris.git"
   },
   "bugs": {
     "url": "https://github.com/salviz/agris/issues"

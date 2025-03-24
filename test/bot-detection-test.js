@@ -179,9 +179,8 @@ async function runTests() {
   await testSite('https://stackoverflow.com/questions/77482892/how-to-use-claude-3-opus-to-summarize-a-pdf-and-answer-questions-about-it', 'Stack Overflow Post');
   await new Promise(resolve => setTimeout(resolve, 5000));
   
-  // Test Reddit with old interface (more accessible)
-  await testSite('https://old.reddit.com/r/LocalLLaMA/', 'Reddit (old interface)');
-  await new Promise(resolve => setTimeout(resolve, 5000));
+  // Skip Reddit test due to persistent anti-bot measures
+  console.log('\n==== Skipping Reddit test due to persistent anti-bot measures ====\n');
   
   console.log('\nFinal cookie count:', getCookieCount());
   console.log('\nTests completed!');

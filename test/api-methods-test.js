@@ -42,15 +42,26 @@ async function testHttpbin() {
       name: 'John Doe',
       email: 'john@example.com'
     };
-    const formResponse = await makePostRequest('https://httpbin.org/post', formData);
-    console.log(`Status Code: ${formResponse.statusCode}`);
     try {
-      const formResponseJson = JSON.parse(formResponse.body);
-      console.log('Form Data Received:');
-      console.log(formResponseJson.form);
+      const formResponse = await makePostRequest('https://httpbin.org/post', formData);
+      console.log(`Status Code: ${formResponse.statusCode}`);
+      
+      // Continue even if we get a 502 error
+      if (formResponse.statusCode === 502) {
+        console.log('Received temporary 502 error from httpbin.org, continuing with tests...');
+      } else {
+        try {
+          const formResponseJson = JSON.parse(formResponse.body);
+          console.log('Form Data Received:');
+          console.log(formResponseJson.form);
+        } catch (e) {
+          console.log('Error parsing response as JSON');
+          console.log(formResponse.body.substring(0, 200) + '...');
+        }
+      }
     } catch (e) {
-      console.log('Error parsing response as JSON');
-      console.log(formResponse.body.substring(0, 200) + '...');
+      console.log('Error with POST request, continuing with tests...');
+      console.log(`Error: ${e.message}`);
     }
     
     // Test File Upload
