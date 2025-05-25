@@ -2,6 +2,17 @@
 
 All notable changes to the AGRIS browser will be documented in this file.
 
+## [1.1.1] - 2025-05-25
+
+### Fixed
+- Removed deprecated crypto package dependency (now using Node.js built-in crypto module)
+- Removed optional Puppeteer dependencies to prevent installation errors on unsupported platforms
+- Fixed compatibility issues with Termux and other ARM-based environments
+
+### Improved
+- Cleaner installation process without warnings about unsupported platforms
+- Better compatibility across different environments
+
 ## [1.1.0] - 2025-03-24
 
 ### Added
