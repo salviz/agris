@@ -1,0 +1,19 @@
+# Echoes of the Unseen
+
+## 1. Executive Summary (from project document)
+This document outlines a comprehensive plan for the development of "Echoes of the Unseen," an engaging and immersive audio-first web game specifically designed for blind users. The game will be a narrative-driven mystery, leveraging advanced AI technologies for text-to-speech (TTS), sound effect generation, dynamic narrative elements, and multi-modal controls. Hosted on Google App Engine's standard environment to ensure cost-effectiveness, the project prioritizes deep accessibility, adhering to W3C WCAG 2.2 AA and WCAG 3.0 guidelines. Key AI integrations include Google's Gemini 2.5 Pro for TTS and Large Language Model (LLM) capabilities, ElevenLabs API for procedural sound effects, and Google Cloud Speech-to-Text for voice command input. The technical architecture emphasizes Python with the FastAPI framework, utilizing Firestore for robust game state management. This plan details the game plot, narrative structure, technical implementation, accessibility strategy, UI/UX considerations for non-visual play, and a phased development roadmap, aiming to deliver a highly immersive and accessible gaming experience.
+
+## 2. Game Concept: "Echoes of the Unseen" (from project document)
+"Echoes of the Unseen" is envisioned as a single-player, audio-centric mystery adventure. Players will step into the role of "The Listener," a protagonist with an extraordinary ability to perceive and interpret subtle auditory clues and residual sonic imprints left in the environment—echoes of past events. This unique skill becomes crucial when a series of inexplicable disappearances plague a historically rich, atmospheric city. The game will unfold primarily through rich audio narration, environmental soundscapes, character dialogues, and interactive sound-based puzzles.
+*   **Genre**: Audio-First Mystery/Detective Adventure, Interactive Narrative. This genre is particularly well-suited for an audio-only format, as mystery and investigation inherently rely on piecing together clues and information, which can be effectively conveyed through sound and dialogue.
+*   **Target Audience**: Primarily blind and visually impaired gamers seeking immersive, narrative-rich experiences. The design will also ensure it can be engaging for sighted players interested in audio-centric gameplay.
+*   **Core Gameplay Loop**:
+    *   Exploration: Navigate diverse environments (e.g., old libraries, bustling marketplaces, eerie alleyways, forgotten archives) using descriptive audio cues, spatial sound, and potentially simple directional commands (voice, keyboard, touch).
+    *   Investigation: Use "The Listener's" unique abilities to uncover sonic clues—fragments of past conversations, distinct sounds associated with individuals or objects, or environmental anomalies. This mechanic is central to the game's uniqueness.
+    *   Interaction: Engage with Non-Player Characters (NPCs) through dynamic, AI-driven dialogue. Choices made during conversations can reveal new information or alter NPC disposition. Interact with objects, triggering sound effects and descriptive narrations that provide further clues.
+    *   Deduction & Puzzle Solving: Piece together auditory clues and narrative threads to solve puzzles, make deductions, and advance the mystery. Puzzles will be designed to be solvable through auditory logic rather than visual information.
+    *   Narrative Progression: Unravel the central mystery through a branching narrative, where player choices and discoveries influence the story's direction and outcome.
+*   **Unique Selling Proposition (USP)**: A deeply immersive mystery designed from the ground up for non-visual play, leveraging cutting-edge AI to create a dynamic and responsive audio world. The "sonic echoes" mechanic offers a novel way to interact with a game environment.
+
+---
+*Further details can be found in the `docs/` directory.*
