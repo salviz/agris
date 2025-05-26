@@ -1,18 +1,12 @@
-fastapi>=0.104.0 # Modern FastAPI version
-uvicorn[standard]>=0.23.0 # Uvicorn with standard dependencies for Gunicorn
-pydantic>=2.0 # For data validation, used by FastAPI
-
-# Google Cloud Libraries (ensure to use specific versions if needed)
-google-cloud-firestore
-google-cloud-texttospeech # For Gemini TTS if accessed via standard TTS API, or Vertex AI
-google-cloud-speech # For Speech-to-Text
-
-# Gemini (Vertex AI SDK is recommended for Gemini 2.5 Pro)
-google-cloud-aiplatform # For Vertex AI, which hosts Gemini models
-
-# ElevenLabs API client (official or community)
-elevenlabs # Official Python SDK
+fastapi>=0.104.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0
+google-cloud-firestore>=2.11.0 # Ensure a specific version
+google-cloud-aiplatform>=1.25.0 # For Vertex AI (Gemini)
+google-cloud-texttospeech # Retaining this as it was present, for standard TTS
+google-cloud-speech # Retaining this as it was present
+elevenlabs>=0.2.20 # Official SDK
+python-dotenv>=0.21.0 # For local environment variable management
 
 # Other useful libraries you might need later
-# python-dotenv # For managing environment variables locally
 # httpx # For making external HTTP requests if needed directly
